@@ -1,3 +1,27 @@
-body{
+div {
+  background-color: #6f4a8e;
+}
+
+.top-container {
+  background-color: #6f4a8e;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  padding: 20px;
+}
+
+.middle-container {
   background-color: blue;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+}
+
+.bottom-container {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin-left: 500px;
 }
