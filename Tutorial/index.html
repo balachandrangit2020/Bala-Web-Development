@@ -1,21 +1,42 @@
 <html>
   <head>
-    <title>Sports Training Application Form</title>
+    <title>Job Application Form</title>
   </head>
   <body>
-    <h1>Sports Training Application Form</h1>
+    <h1>Job Application Form</h1>
     <form>
       <p>
-        Select your favorite sports:
+        Your Name:<br>
+        <input type="text" name="Name">
       </p>
-      <select name="sports" id="sports">
-        <option value="hockey">Hockey</option>
-        <option value="football">Football</option>
-        <option value="cricket">Cricket</option>
-        <option value="basket_ball">Basket Ball</option>
-        <option value="volley_ball">Volley Ball</option>
-        <input type="submit" value="send">
+      <p>
+        Your Education:
+      <br>
+      <select name="Degree">
+        <option value="">select degree</option>
+        <option value="B.E.">B.E.</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="BCA">BCA</option>
+        <option value="B.Sc.">B.Sc.</option>
       </select>
+    </p>
+      <p>
+        You want to apply for the position:
+      <br>
+      <select name="job">
+        <option value="">select your position</option>
+        <option value="Front End Web Develper">Front End Web Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="Full Stack Developer">Full Stack Developer</option>
+      </select>
+      </p>
+      <p>
+        Your Resume:<br>
+        <input type="file" name="Resume">
+      </p>
+      <p>
+        <input type="submit" value="Send Details">
+      </p>
     </form>
 </body>
 </html>
